@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   name ='Võ Hữu Phước';
   title = 'myAppAngular';
+  product  ={
+    name:'hat',
+    quatity:'200',
+    price:'500'
+  }
 }
