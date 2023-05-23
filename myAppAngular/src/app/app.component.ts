@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Produc } from './common/produc';
 
 @Component({
   selector: 'app-root',
@@ -8,9 +9,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   name ='Võ Hữu Phước';
   title = 'myAppAngular';
-  product  ={
+  product:  Produc ={
+
     name:'hat',
-    quatity:'200',
-    price:'500'
+    quatity:200,
+    price:500
   }
 }
